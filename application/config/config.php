@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'localhost:4040/IA';
+$config['base_url'] = 'http://localhost/IA/';
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +35,7 @@ $config['base_url'] = 'localhost:4040/IA';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'home.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------

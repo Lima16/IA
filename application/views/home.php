@@ -1,18 +1,17 @@
 
 <!--  Titulo  -->
-<div style="text-align: center; margin-top: 30px">     
-   <h2><b>Nome do Restaurante</b></h2>
+<div style="text-align: center; margin-top: 30px; text-shadow: 2px 3px 2px gray;">     
+   <h1><b>Soho Restaurante</b></h1>
 </div>
    
 <!-- Imagem  --> 
 <div class="text-center" style="margin-top: 20px">
-     <img src="assets/img/fototopo.jpg" class="img-fluid" alt="Responsive image" style="text-align: center">
+     <img src="<?=base_url()?>assets/img/fototopo.jpg" class="img-fluid" alt="Responsive image" style="text-align: center">
 </div>
  
-             
-<div id="nomerestaurante" style="margin-top: 20px; text-align: center;" >
-    <div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus. Morbi aliquam tincidunt facilisis. Aenean sodales nulla ac semper consectetur. Vivamus commodo massa convallis justo posuere vestibulum. Aenean congue non mauris ac auctor. Ut suscipit et eros nec suscipit. Nulla congue, mauris nec bibendum sagittis, urna orci tincidunt massa, in vulputate velit nulla vitae nunc. Etiam urna justo, imperdiet nec orci sollicitudin, tempus feugiat erat. Vivamus id lectus nulla. Vestibulum sagittis cursus metus vel ultricies. <a href="https://github.com/christophery/pushy">Suspendisse viverra</a> interdum metus eu placerat. Quisque tristique velit nisi, scelerisque consectetur tortor vehicula ut. Donec id fermentum mi, nec venenatis felis.</p>
 
+<div id="nomerestaurante" style="margin: 30px; text-align: justify;" >
+    <div>
+    <p>Restaurante de culinária asiática com tendência japonesa, premiado por 15 vezes consecutivas no Prêmio Veja Salvador na categoria de Restaurante Japonês, e diplomado por Mérito em Turismo pela Secretaria de Cultura e Turismo do estado da Bahia. Foi inaugurado na ladeira da Barra, um charmoso bairro de Salvador (BA), pelo casal de empresários baianos Jefferson Queiroz e Karine Queiroz em parceria com o Chef Bartô, com vasta experiência na culinária japonesa.</p>
     </div>
  </div>
