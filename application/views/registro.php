@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>Login</title>
+  <title>Registro</title>
 </head>
 <body style="background-color: darkslategray;">
 <!-- lightseagreen -->
@@ -26,17 +26,21 @@
           ">
 
 
-            <form class="login100-form validate-form" action="<?=base_url()?>index.php/login/logar" method="post">
-              <h1 class="h3 mb-3 font-weight-normal" style="color: darkslategray; text-shadow: 2px 2px 3px gray;"><b>Login</b></h1>
+            <form class="form-signin" action="<?=base_url()?>index.php/registrar" method="post">
+              <h1 class="h3 mb-3 font-weight-normal" style="color: darkslategray; text-shadow: 2px 2px 3px gray;"><b>Registro</b></h1>
+              
+              <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
+
               <label for="inputEmail" class="sr-only">Email</label>
-              <input type="email" id="email" name="email" class="form-control" placeholder="Email" required autofocus>
+              <input type="email" id="email" name="email" class="form-control" style="margin-top: 10px;" placeholder="Email" required autofocus>
               <label for="inputPassword" class="sr-only">Senha</label>
               <input type="password" id="senha" name="senha" style="margin-top: 10px;" class="form-control" placeholder="Senha" required>
-              <div class="checkbox mb-3" style="text-align: right;">
-                <a href="<?=base_url()?>index.php/registro">Registrar-se</a>
-
+              <div class="checkbox mb-3">
               </div>
-              <button type="submit" class="btn btn-primary">Entrar</button>
+              <div  style="text-align: right;">
+                <button type="submit" class="btn btn-primary">Concluir</button>
+              </div>
+              
               
               <!-- <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p> -->
             </form>
